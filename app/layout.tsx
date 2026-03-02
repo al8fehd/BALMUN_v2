@@ -14,24 +14,12 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'BALMUN26 — Model United Nations Conference',
+  title: 'BALMUN',
   description: 'BALMUN26 is a prestigious Model United Nations conference bringing together young leaders to debate, negotiate, and build a better world.',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/images/balmun-logo.svg',
+    shortcut: '/images/balmun-logo.svg',
+    apple: '/images/balmun-logo.svg',
   },
 }
 
