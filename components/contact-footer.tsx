@@ -51,6 +51,35 @@ export function ContactFooter() {
             and partnership opportunities.
           </p>
 
+          <div className="mt-12 w-full rounded-3xl border border-destructive/35 bg-gradient-to-br from-destructive/20 via-destructive/10 to-primary-foreground/5 p-4 md:p-6">
+            <div className="grid gap-5 md:grid-cols-[1fr_auto] md:items-stretch">
+              <div className="hidden rounded-2xl border border-primary-foreground/10 bg-primary-foreground/5 p-6 text-left md:flex md:flex-col md:justify-center">
+                <span className="text-xs uppercase tracking-[0.24em] text-primary-foreground/50">
+                  Contact Form
+                </span>
+                <p className="mt-4 text-sm leading-relaxed text-primary-foreground/70">
+                  By filling out this form, you can join BALMUN26 as a
+                  delegate.
+                </p>
+              </div>
+
+              <div className="w-full rounded-2xl border border-destructive/30 bg-card p-3 md:w-[520px] md:justify-self-end md:p-4">
+                <iframe
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSdHSufC2GLKzt5y1z2rvbMhSe3YbNExf_KENNbONa7YIHU-1A/viewform?embedded=true"
+                  width="100%"
+                  height="680"
+                  frameBorder="0"
+                  marginHeight={0}
+                  marginWidth={0}
+                  className="w-full"
+                  title="BALMUN26 Contact Form"
+                >
+                  Yükleniyor…
+                </iframe>
+              </div>
+            </div>
+          </div>
+
           <a
             href="https://forms.gle/4zYkVmrZ7CZz4jDd8"
             className="group mt-12 inline-flex items-center gap-3 rounded-full border border-primary-foreground/20 bg-primary-foreground/10 px-8 py-4 text-sm font-medium tracking-wide text-primary-foreground transition-all duration-300 hover:border-primary-foreground/40 hover:bg-primary-foreground/20"
